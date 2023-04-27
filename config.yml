@@ -1,0 +1,3 @@
+server:
+  name: ProxyServerHttp
+  port: 8080
