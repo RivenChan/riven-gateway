@@ -1,7 +1,8 @@
 package config
 
 type Bootstrap struct {
-	Server Server `yaml:"server"`
+	Server    Server     `yaml:"server"`
+	Upstreams []Upstream `yaml:"upstreams"`
 }
 
 type Server struct {
